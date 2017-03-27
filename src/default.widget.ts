@@ -6,4 +6,6 @@ import { Component } from '@angular/core';
     <p>Cannot find valid type for {{name}}
   `
 })
-export class DefaultWidget {}
+export class DefaultWidget {
+  name: string = "unknown";
+}
